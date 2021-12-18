@@ -1,0 +1,29 @@
+.footer{
+  height: 60px;
+  background: #141218;
+  padding: 20px 0;
+  &__text{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF50;
+    cursor: pointer;
+  }
+&__second{
+  display: flex;
+margin-left: 619px;
+  font-family: Roboto,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF50;
+  column-gap: 25px;
+  cursor: pointer;
+}
+  &__first{
+    display: flex;
+  }
+}
